@@ -1,0 +1,11 @@
+steps-functions
+step1-stock.get_ticker_and_dates()
+step2-stock.get_sector()
+step3-stock.define_start_end_dates(stock.firstDate)
+step4-stock.dates_to_str(stock.startDate,stock.endDate)
+step5-stock.get_price_by_date()
+step6-stock.write_to_csv(stock.indx,stock.ticker,stock.date,stock.price,stock.sector)
+step7-stock.define_start_end_dates(stock.lastDate)
+step8-stock.dates_to_str(stock.startDate,stock.endDate)
+step9-stock.get_price_by_date()
+step10-stock.write_to_csv(stock.indx,stock.ticker,stock.date,stock.price,stock.sector)
